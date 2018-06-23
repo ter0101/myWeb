@@ -1,0 +1,29 @@
+@media screen and (max-width:768px){
+    .row-content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .top i{
+        left: 10%;
+    }
+    section{
+        padding:0px; 
+    }
+    .row-content img{
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .row-content img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .row-content img{
+        height: 210px;
+    }
+}
