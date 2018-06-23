@@ -1,0 +1,108 @@
+@media screen and (max-width: 1024px) {
+  .text-hero {
+    left: 10%;
+  }
+  .row-2 {
+    width: 90%;
+  }
+  blockquote:after {
+    left: 370px;
+  }
+  .app-screen {
+    width: 100%;
+  }
+  .ad-img {
+    width: 100%;
+  }
+  .ed {
+    margin: none;
+    padding: none;
+    margin-left: 220px;
+  }
+  .ad-img-1:hover,
+  .ad-img-2:hover,
+  .ad-img-3:hover,
+  .ad-img-4:hover {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .ed {
+    margin-left: 100px;
+    font-size: 120%;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .btn-ghost {
+    background-color: #2096f3;
+  }
+  .head-backgroup {
+    margin-top: 0;
+    height: 100vh;
+  }
+  .box h3 {
+    font-size: 170%;
+  }
+  .box p {
+    font-size: 110%;
+  }
+  .top i {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    font-size: 200%;
+    padding: 8px;
+    color: #555555;
+    left: 80%;
+    margin-top: -5px;
+  }
+  .row-3 {
+    width: 48%;
+  }
+  .para-info {
+    display: none;
+  }
+  blockquote:after {
+    display: none;
+  }
+  cite {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .ed {
+    margin-left: 58px;
+  }
+  .sticky {
+    display: none;
+  }
+  .main-nav {
+    display: none;
+  }
+  .main-nav li {
+    margin-bottom: 20px;
+    display: block;
+  }
+  .f-ul li{
+    padding-right: 10px;
+  }
+  .f-ul li a i{
+    font-size: 170%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+  .ed {
+    margin-left: 45px;
+  }
+}

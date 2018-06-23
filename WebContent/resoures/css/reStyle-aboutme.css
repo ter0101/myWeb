@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+  .row {
+    width: 70%;
+  }
+}
+@media screen and (max-width:768px){
+  .ap-2 p {
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 414px) {
+  .aboutme-body {
+    font-size: 16px;
+  }
+  .row {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .row {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 320px){
+    .aboutme-body{
+        font-size: 13px;
+    }
+}
