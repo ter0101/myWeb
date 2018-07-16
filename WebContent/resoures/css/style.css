@@ -429,7 +429,6 @@ h3 {
 
 blockquote {
   padding: 2%;
-  font-style: italic;
   line-height: 145%;
   position: relative;
   margin-top: 40px;
@@ -437,20 +436,11 @@ blockquote {
 
 blockquote:before {
   content: "\201C";
-  font-size: 500%;
+  font-size: 300%;
   display: block;
   position: absolute;
   top: -5px;
   left: -5px;
-}
-
-blockquote:after {
-  content: "\201D";
-  font-size: 500%;
-  display: block;
-  position: absolute;
-  top: 130px;
-  left: 470px;
 }
 
 cite {
@@ -596,8 +586,13 @@ footer p {
   list-style: none;
 }
 
+.ap-skill ul {
+  margin-bottom: 10px;
+}
+
 .ap-skill li {
   display: inline;
+
 }
 .ap-skill li span {
   padding: 2px 8px;
